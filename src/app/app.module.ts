@@ -8,7 +8,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 
-const routes: Routes = []
+const routes: Routes = [
+  { path: '', component: TodoListComponent },
+]
 
 @NgModule({
   declarations: [
