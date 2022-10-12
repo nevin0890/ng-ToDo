@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row">
+                <div class="col-col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+
+                                <th scope="col">id</th>
+                                <th scope="col">todo </th>
+                                <th scope="col">completed</th>
+                                <th scope="col">userId</th>
+                              
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let i of getToDoS.todos">
+                                <td>{{i.id}}</td>
+                                <td>{{i.todo}}</td>
+                                <td>{{i.completed}}</td>
+                                <td>{{i.userId}}</td>
+                                
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
